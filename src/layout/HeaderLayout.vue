@@ -39,11 +39,10 @@
 
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-import { Home, Film, Shield, WashingMachine } from "lucide-vue-next";
+import { Home, Film, Shield, WashingMachine, Joystick } from "lucide-vue-next";
 
 interface NavItem {
   name: string;
@@ -56,5 +55,6 @@ const navItems: NavItem[] = [
   { name: "MCU", path: "/mcu", icon: Film },
   { name: "DCU", path: "/dcu", icon: Shield },
   { name: "Other", path: "/other", icon: WashingMachine },
+  { name: "Game", path: "/game", icon: Joystick },
 ];
 </script>

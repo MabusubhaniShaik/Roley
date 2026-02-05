@@ -9,6 +9,7 @@ import Home from "@/pages/HomePage.vue";
 import MarvelPage from "@/pages/MarvelPage.vue";
 import DCUPage from "@/pages/DCUPage.vue";
 import OthersPage from "@/pages/OthersPage.vue";
+import GamePage from "@/pages/GamePage.vue";
 
 const routes: RouteRecordRaw[] = [
   {
@@ -34,6 +35,11 @@ const routes: RouteRecordRaw[] = [
         path: "other",
         name: "Other",
         component: OthersPage,
+      },
+      {
+        path: "game",
+        name: "Game",
+        component: GamePage,
       },
     ],
   },
